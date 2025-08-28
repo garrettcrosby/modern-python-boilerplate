@@ -16,4 +16,4 @@ COPY src /app/src
 
 EXPOSE 8000
 
-ENTRYPOINT ["uv", "run", "python", "-m", "as_api.main"]
+ENTRYPOINT ["uv", "run", "python", "-m", "api_module.main"]

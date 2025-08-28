@@ -21,4 +21,4 @@ COPY src /app/src
 
 EXPOSE 8000
 
-CMD ["uv", "run", "python", "-m", "as_api.main"]
+CMD ["uv", "run", "python", "-m", "api_module.main"]
