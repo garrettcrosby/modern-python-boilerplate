@@ -1,14 +1,14 @@
 [project]
-name = "modern-python-boilerplate"
+name = "as-api"
 version = "0.1.0"
-description = "Add your description here"
+description = "this is a test"
 readme = "README.md"
 requires-python = ">=3.13"
 authors = [
-    { name = "Corentin Meyer", email = "contact@cmeyer.fr" },
+    { name = "cgr", email = "notarealemail@fake.com" },
 ]
 maintainers = [
-    { name = "Corentin Meyer", email = "contact@cmeyer.fr" }
+    { name = "cgr", email = "notarealemail@fake.com" }
 ]
 dependencies = []
 
@@ -35,7 +35,7 @@ requires = ["uv_build"]
 build-backend = "uv_build"
 
 [project.scripts]
-modern_python_boilerplate = "modern_python_boilerplate.main:hello_world"
+as_api = "as_api.main:hello_world"
 
 [tool.ruff]
 target-version = "py313"

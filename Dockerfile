@@ -17,8 +17,8 @@ WORKDIR /app
 COPY README.md /app/
 COPY pyproject.toml /app/
 RUN uv sync --no-install-project --no-dev
-COPY src/modern_python_boilerplate /app/modern_python_boilerplate
+COPY src /app/src
 
 EXPOSE 8000
 
-CMD ["uv", "run", "modern_python_boilerplate/main.py"]
+CMD ["uv", "run", "python", "-m", "as_api.main"]
